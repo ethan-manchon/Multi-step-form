@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   css: ['/assets/css/main.css'],
   
   app: {
-    baseURL: '/Multi-step-form/', 
+   baseURL: '/Multi-step-form/', 
   },
 
   ssr: false, 
