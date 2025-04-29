@@ -1,93 +1,87 @@
-# Multi-Step Form - Frontend Mentor Challenge
+# Frontend Mentor - Multi-step form solution
 
-This project is a solution to the [Frontend Mentor Multi-Step Form Challenge](https://www.frontendmentor.io). It is built using **Nuxt 3**, **Nuxt UI**, and **Pinia** for state management. This is my first project using these technologies.
+This is a solution to the **Multi-step form** challenge on [Frontend Mentor](https://www.frontendmentor.io). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Overview
+## 📑 Table of contents
 
-The goal of this project is to create a responsive multi-step form with validation and dynamic state management. The form allows users to navigate between steps, save their progress, and submit the data.
+- [Overview](#overview)
+- [Links](#links)
+- [My process](#my-process)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
+- [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-## Setup
+---
 
-Make sure to install dependencies:
+## 📖 Overview
 
-```bash
-# npm
-npm install
+### The challenge
 
-# pnpm
-pnpm install
+Users should be able to:
 
-# yarn
-yarn install
+- Complete each step of the form sequence
+- Navigate back to previous steps to update their selections
+- View a summary of their selections at the final step and confirm their order
+- Experience a responsive layout that adapts to different screen sizes
+- See hover and focus states for all interactive elements
+- Receive form validation messages when:
+  - A required field is empty
+  - An email address is not correctly formatted
+  - A step is submitted without a selection
 
-# bun
-bun install
-```
+---
 
-## Development Server
+## 🔗 Links
 
-Start the development server on `http://localhost:3000`:
+- **Live Site URL:** [https://ethan-manchon.github.io/Multi-step-form/](https://ethan-manchon.github.io/Multi-step-form/)
 
-```bash
-# npm
-npm run dev
+---
 
-# pnpm
-pnpm dev
+## 🧠 My process
 
-# yarn
-yarn dev
+### Built with
 
-# bun
-bun run dev
-```
+- [Nuxt](https://nuxt.com/) – Vue.js framework
+- [Nuxt UI](https://ui.nuxt.com/) – UI component library for Nuxt
+- [Pinia](https://pinia.vuejs.org/) – State management library for Vue
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
 
-## Features
+---
 
-- Multi-step form with navigation
-- Form validation for each step
-- State management using Pinia
-- Responsive design with Nuxt UI components
-- Dynamic data handling and submission
+## 💡 What I learned
 
-## Production
+This was my first project using **Nuxt**, **Nuxt UI**, and **Pinia**. I explored these technologies as part of an internship and learned how to build a multi-step form with state management, dynamic navigation, and form validation.
 
-Build the application for production:
+---
 
-```bash
-# npm
-npm run build
+## 🔄 Continued development
 
-# pnpm
-pnpm build
+I will continue working with **Nuxt** throughout my internship. In future projects, I plan to focus on:
+- Advanced store patterns with Pinia
+- Creating reusable and dynamic components with Nuxt UI
+- Improving client-side and server-side validation and routing in Nuxt
 
-# yarn
-yarn build
+---
 
-# bun
-bun run build
-```
+## 📚 Useful resources
 
-Locally preview production build:
+- [Nuxt Documentation](https://nuxt.com/docs)
+- [Pinia Documentation](https://pinia.vuejs.org/)
+- [Nuxt UI Documentation](https://ui.nuxt.com/)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
 
-```bash
-# npm
-npm run preview
+---
 
-# pnpm
-pnpm preview
+## 👤 Author
 
-# yarn
-yarn preview
+- Frontend Mentor – [@ethan-manchon](https://www.frontendmentor.io/profile/ethan-manchon)
+- GitHub – [@ethan-manchon](https://github.com/ethan-manchon)
 
-# bun
-bun run preview
-```
+---
 
-## Learn More
+## 🙏 Acknowledgments
 
-- [Nuxt Documentation](https://nuxt.com/docs/getting-started/introduction)
-- [Nuxt UI Documentation](https://nuxt.com/ui)
-- [Pinia Documentation](https://pinia.vuejs.org)
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Big thanks to **El Cassgrain**, my internship mentor, who introduced me to Nuxt and Frontend Mentor.
