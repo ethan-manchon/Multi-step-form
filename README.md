@@ -84,4 +84,4 @@ I will continue working with **Nuxt** throughout my internship. In future projec
 
 ## 🙏 Acknowledgments
 
-Big thanks to **El Cassgrain**, my internship mentor, who introduced me to Nuxt and Frontend Mentor.
+Big thanks to **[my internship mentor](https://github.com/El-Cassegrain)**, who introduced me to Nuxt and Frontend Mentor.
