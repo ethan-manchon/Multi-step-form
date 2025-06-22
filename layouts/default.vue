@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-screen flex flex-col md:flex-row bg-white">
-    <main class="flex-1 flex flex-col md:flex-row justify-center items-center gap-8 px-6 py-10 mx-auto">
+    <main class="flex-1 flex flex-col md:flex-row justify-center items-center gap-8 py-10 mx-auto">
       <SideBar :step="step" />
       <slot />
     </main>

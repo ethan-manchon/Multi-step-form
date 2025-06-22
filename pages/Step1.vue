@@ -12,14 +12,14 @@
           <p class="mb-1 text-sm font-medium text-gray-700">Name</p>
           <p v-if="form.errors.name" class="text-red-500">{{ form.errors.name }}</p>
         </div>
-        <Input name="name" label="Name" placeholder="e.g. Stephen King" type="text" @input="form.validateStep1" />
+        <Input name="name" class="text-gray-700" label="Name" placeholder="e.g. Stephen King" type="text" @input="form.validateStep1" />
 
         <div class="flex flex-row justify-between">
           <p class="mb-1 text-sm font-medium text-gray-700">Email</p>
           <p v-if="form.errors.email" class="text-red-500">{{ form.errors.email }}</p>
         </div>
 
-        <Input name="email" label="Email Address" placeholder="e.g. stephenking@lorem.com" type="email"
+        <Input name="email" label="Email Address" class="text-gray-700" placeholder="e.g. stephenking@lorem.com" type="email"
           @input="form.validateStep1" />
 
         <div class="flex flex-row justify-between">
@@ -27,7 +27,7 @@
           <p v-if="form.errors.phone" class="text-red-500">{{ form.errors.phone }}</p>
         </div>
 
-        <Input name="phone" label="Phone Number" placeholder="e.g. +1 234 567 890" type="tel"
+        <Input name="phone" label="Phone Number" class="text-gray-700" placeholder="e.g. +1 234 567 890" type="tel"
           @input="form.validateStep1" />
       </div>
 
